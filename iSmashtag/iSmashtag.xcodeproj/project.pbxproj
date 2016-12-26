@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6D17D8821E10E167008E2F75 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17D8811E10E167008E2F75 /* TweetTableViewController.swift */; };
 		6D17D8841E10E1AC008E2F75 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17D8831E10E1AC008E2F75 /* TweetTableViewCell.swift */; };
-		6D17D8881E113957008E2F75 /* Twitter in Resources */ = {isa = PBXBuildFile; fileRef = 6D17D8871E113957008E2F75 /* Twitter */; };
 		6DAE925A1E0FCD550021DEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE92591E0FCD550021DEF6 /* AppDelegate.swift */; };
 		6DAE925F1E0FCD550021DEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE925D1E0FCD550021DEF6 /* Main.storyboard */; };
 		6DAE92611E0FCD550021DEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAE92601E0FCD550021DEF6 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		6D17D8811E10E167008E2F75 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
 		6D17D8831E10E1AC008E2F75 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
-		6D17D8871E113957008E2F75 /* Twitter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Twitter; sourceTree = "<group>"; };
 		6DAE92561E0FCD540021DEF6 /* iSmashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSmashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DAE92591E0FCD550021DEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DAE925E1E0FCD550021DEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 		6DAE92581E0FCD550021DEF6 /* iSmashtag */ = {
 			isa = PBXGroup;
 			children = (
-				6D17D8871E113957008E2F75 /* Twitter */,
 				6DAE92591E0FCD550021DEF6 /* AppDelegate.swift */,
 				6D17D8831E10E1AC008E2F75 /* TweetTableViewCell.swift */,
 				6D17D8811E10E167008E2F75 /* TweetTableViewController.swift */,
@@ -131,7 +128,6 @@
 			files = (
 				6DAE92641E0FCD550021DEF6 /* LaunchScreen.storyboard in Resources */,
 				6DAE92611E0FCD550021DEF6 /* Assets.xcassets in Resources */,
-				6D17D8881E113957008E2F75 /* Twitter in Resources */,
 				6DAE925F1E0FCD550021DEF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +255,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iSmashtag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPF.iSmashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,6 +267,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iSmashtag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NPF.iSmashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";

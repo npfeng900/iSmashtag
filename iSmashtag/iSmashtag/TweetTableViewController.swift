@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import Twitter
 
 class TweetTableViewController: UITableViewController {
     
     // MARK: Model
     
-    var tweets = [[Tweet]]() {
+    var tweets = [Array<Twitter>]() {
         didSet {
             tableView.reloadData()
         }
