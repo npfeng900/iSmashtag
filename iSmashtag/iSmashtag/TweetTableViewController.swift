@@ -7,10 +7,20 @@
 //
 
 import UIKit
-import Twitter
 
-class TwitterTableViewController: UITableViewController {
-
+class TweetTableViewController: UITableViewController {
+    
+    // MARK: Model
+    
+    var tweets = [[Tweet]]() {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    
+    // MARK: Fetching Tweets
+    
+    
     // MARK: ViewController Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +28,7 @@ class TwitterTableViewController: UITableViewController {
     
     // MARK: Constants
     private struct Storyboard {
-        static let TweetCellIdentifier = "TwitterCell"
+        static let TweetCellIdentifier = "TweetCell"
     }
     
     // MARK: UITableViewDataSource

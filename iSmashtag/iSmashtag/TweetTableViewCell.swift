@@ -8,6 +8,6 @@
 
 import UIKit
 
-class TwitterTableViewCell: UITableViewCell {
+class TweetTableViewCell: UITableViewCell {
 
 }
